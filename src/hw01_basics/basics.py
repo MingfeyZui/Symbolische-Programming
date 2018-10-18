@@ -40,7 +40,7 @@ def modulo(x, y):
     >>> modulo(70, 7)
     0
     """
-    pass
+    return x%y
 
 def odd_number(x):
     """ Return True or False whether x is odd or not.
@@ -51,7 +51,10 @@ def odd_number(x):
     >>> odd_number(-3)
     True
     """
-    pass
+    if x % 2 == 0:
+        return False
+    else:
+        return True
 
 # ===STRING OPERATIONS====================================================
 
@@ -60,7 +63,7 @@ def happy_birthday(name, age):
     >>> happy_birthday("Peter","17")
     Happy 17th birthday, Peter!
     """
-    pass
+    print('Happy ' + str(age) + 'th birthday, ' + name)
 
 def word_multiplier(word, n):
     """ Return a word multiplied n times.
