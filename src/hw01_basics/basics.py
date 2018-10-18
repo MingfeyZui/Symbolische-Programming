@@ -75,7 +75,7 @@ def word_multiplier(word, n):
     >>> word_multiplier('Fish', 0)
     ''
     """
-    pass
+    return word*n
 
 def reverse(word):
     """ Return the reverse of a word.
