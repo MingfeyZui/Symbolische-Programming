@@ -89,7 +89,7 @@ def reverse(word):
     >>> reverse("12345")
     '54321'
     """
-    pass
+    return word[::-1]
 
 def every_nth(word, n):
     """ Return every nth letter of w word
