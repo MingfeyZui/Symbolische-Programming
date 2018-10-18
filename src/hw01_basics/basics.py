@@ -19,7 +19,8 @@ coding problem, and the best coding uses collective brain power.
 Happy coding!
 """
 
-
+# ich war hier -- Laurin \(*0*)/
+# und ich -- Haotian \(*0*)/
 # ===BASICS AND NUMBERS====================================================
 
 
