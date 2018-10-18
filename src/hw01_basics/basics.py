@@ -19,7 +19,7 @@ coding problem, and the best coding uses collective brain power.
 Happy coding!
 """
 
-
+# ich war hier -- Laurin \(*0*)/
 # ===BASICS AND NUMBERS====================================================
 
 
