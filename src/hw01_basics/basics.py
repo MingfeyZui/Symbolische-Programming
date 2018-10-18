@@ -119,7 +119,7 @@ def second_element(list_a):
     >>> second_element(listTwo)
     2
     """
-    pass
+    return list_a[1]
 
 def concatenate_lists(list_a, list_b):
     """ Return the concatenation of both lists.
