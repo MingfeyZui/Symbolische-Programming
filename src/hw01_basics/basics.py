@@ -100,7 +100,11 @@ def every_nth(word, n):
     >>> every_nth("Apfelstrudel",3)
     'Aetd'
     """
-    pass
+    rgw = ""
+    for i in range(0, len(word), n):
+        rgw += word[i]
+
+    return rgw
 
 # ===LIST OPERATIONS====================================================
 listOne = ["Germany", "Spain", "Italy", "Poland", "France"]
