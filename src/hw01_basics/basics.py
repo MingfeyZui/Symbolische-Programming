@@ -184,8 +184,12 @@ def count_to_k(k):
     -1
     >>> count_to_k(0)
     """
-    pass
-
+    if k >= 0:
+        for i in range(0, k):
+            print(i)
+    else:
+        for i in range(0, -k):
+            print(-i)
 
 # ===REGULAR EXPRESSIONS====================================================
 
@@ -201,7 +205,11 @@ def no_numbers(w):
     >>> no_numbers("A B C D E F G H I J K L")
     True
     """
-    pass
+    num_list = [1,2,3,4,5,6,7,8,9,0]
+    for num in num_list:
+        if str(num) in w:
+            return False
+    return True
 
 
 def contains_substring(substring, string):
@@ -219,6 +227,9 @@ def contains_substring(substring, string):
     >>> contains_substring("Salat","S a l a t")
     False
     """
-    pass
+    if substring in string:
+        return True
+    else:
+        return False
 
 # =======================================================
