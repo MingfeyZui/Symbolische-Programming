@@ -64,7 +64,7 @@ def happy_birthday(name, age):
     >>> happy_birthday("Peter","17")
     Happy 17th birthday, Peter!
     """
-    print('Happy ' + str(age) + 'th birthday, ' + name)
+    print('Happy ' + str(age) + 'th birthday, ' + name + '!')
 
 def word_multiplier(word, n):
     """ Return a word multiplied n times.
@@ -149,7 +149,8 @@ def replace_elements(list_a, replacement_indices, new_value):
     >>> replace_elements(listOne.copy(),[1,2,3],"North pole")
     ['Germany', 'North pole', 'North pole', 'North pole', 'France']
     """
-    pass
+    for index in replacement_indices:
+        list_a[index] = new_value
 
 
 def long_strings(string_list, max_length):
