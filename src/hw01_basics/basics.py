@@ -105,6 +105,7 @@ def every_nth(word, n):
         rgw += word[i]
 
     return rgw
+    #return word[::n]
 
 # ===LIST OPERATIONS====================================================
 listOne = ["Germany", "Spain", "Italy", "Poland", "France"]
@@ -128,7 +129,7 @@ def concatenate_lists(list_a, list_b):
     >>> concatenate_lists([42,3],["Super","Duper"])
     [42, 3, 'Super', 'Duper']
     """
-    pass
+    return list_a + list_b
 
 def swap_half(list_a):
     """ Swaps the first half of a list with the second half of the list.
@@ -172,7 +173,8 @@ def print_squares(list_a):
     64
     36
     """
-    pass
+    for i in list_a:
+        print(i**2)
 
 
 def count_to_k(k):
