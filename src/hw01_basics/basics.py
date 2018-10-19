@@ -139,7 +139,7 @@ def swap_half(list_a):
     >>> swap_half(listOne)
     ['Italy', 'Poland', 'France', 'Germany', 'Spain']
     """
-    pass
+    return list_a[len(list)//2:] + list_a[0:len(list_a)//2]
 
 def replace_elements(list_a, replacement_indices, new_value):
     """ Replace the elements in list_a at the positions given in replacement_indices with new_value, and return the
@@ -161,7 +161,12 @@ def long_strings(string_list, max_length):
     >>> long_strings(["a", "bb", "", "ccc"], 1)
     [False, True, False, True]
     """
-    pass
+    return_list = []
+    for i in string_list:
+        if len(i) > max_length:
+            return_list.append(True)
+        else:
+            return_list.append(False)
 
 # ===LOOP OPERATIONS====================================================
 
