@@ -139,7 +139,7 @@ def swap_half(list_a):
     >>> swap_half(listOne)
     ['Italy', 'Poland', 'France', 'Germany', 'Spain']
     """
-    return list_a[len(list)//2:] + list_a[0:len(list_a)//2]
+    return list_a[len(list_a)//2:] + list_a[0:len(list_a)//2]
 
 def replace_elements(list_a, replacement_indices, new_value):
     """ Replace the elements in list_a at the positions given in replacement_indices with new_value, and return the
@@ -151,6 +151,7 @@ def replace_elements(list_a, replacement_indices, new_value):
     """
     for index in replacement_indices:
         list_a[index] = new_value
+    return list_a
 
 
 def long_strings(string_list, max_length):
@@ -168,6 +169,7 @@ def long_strings(string_list, max_length):
             return_list.append(True)
         else:
             return_list.append(False)
+    return return_list
 
 # ===LOOP OPERATIONS====================================================
 
@@ -239,7 +241,7 @@ def contains_substring(substring, string):
     >>> contains_substring("Salat","S a l a t")
     False
     """
-    if substring in string:
+    if substring.lower() in string.lower():
         return True
     else:
         return False
