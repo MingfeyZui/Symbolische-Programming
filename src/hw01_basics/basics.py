@@ -64,7 +64,7 @@ def happy_birthday(name, age):
     >>> happy_birthday("Peter","17")
     Happy 17th birthday, Peter!
     """
-    print('Happy ' + str(age) + 'th birthday, ' + name + '!')
+    print('Happy ' + age + 'th birthday, ' + name + '!')
 
 def word_multiplier(word, n):
     """ Return a word multiplied n times.
@@ -100,7 +100,7 @@ def every_nth(word, n):
     >>> every_nth("Apfelstrudel",3)
     'Aetd'
     """
-    rgw = ""
+    rgw = ''
     for i in range(0, len(word), n):
         rgw += word[i]
 
