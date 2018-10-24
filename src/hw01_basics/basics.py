@@ -19,8 +19,6 @@ coding problem, and the best coding uses collective brain power.
 Happy coding!
 """
 
-# ich war hier -- Laurin \(*0*)/
-# und ich -- Haotian \(*0*)/
 # ===BASICS AND NUMBERS====================================================
 
 
@@ -100,12 +98,8 @@ def every_nth(word, n):
     >>> every_nth("Apfelstrudel",3)
     'Aetd'
     """
-    rgw = ''
-    for i in range(0, len(word), n):
-        rgw += word[i]
 
-    return rgw
-    #return word[::n]
+    return word[::n]
 
 # ===LIST OPERATIONS====================================================
 listOne = ["Germany", "Spain", "Italy", "Poland", "France"]
