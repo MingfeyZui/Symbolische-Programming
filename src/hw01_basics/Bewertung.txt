@@ -1,0 +1,18 @@
+basics.hello_semester           OK        1/1 points
+basics.modulo                   OK        1/1 points
+basics.odd_number               OK        1/1 points
+basics.happy_birthday           OK        1/1 points
+basics.word_multiplier          OK        1/1 points
+basics.reverse                  OK        1/1 points
+basics.every_nth                OK        1/1 points
+basics.second_element           OK        1/1 points
+basics.concatenate_lists        OK        1/1 points
+basics.swap_half                OK        1/1 points
+basics.replace_elements         OK        1/1 points
+basics.long_strings             OK        1/1 points
+basics.print_squares            OK        1/1 points
+basics.count_to_k               OK        1/1 points
+basics.no_numbers               OK        1/1 points
+basics.contains_substring       OK        1/1 points
+####################################
+TOTAL: 16/16 points

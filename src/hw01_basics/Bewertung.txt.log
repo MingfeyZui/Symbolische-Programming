@@ -1,0 +1,241 @@
+#####################
+MODULE: basics.py
+#####################
+
+Trying:
+    concatenate_lists(listOne,listTwo)
+Expecting:
+    ['Germany', 'Spain', 'Italy', 'Poland', 'France', 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5]
+ok
+Trying:
+    concatenate_lists([42,3],["Super","Duper"])
+Expecting:
+    [42, 3, 'Super', 'Duper']
+ok
+Trying:
+    contains_substring("Apfel","Apfelkuchen")
+Expecting:
+    True
+ok
+Trying:
+    contains_substring("Apfel","APFEL")
+Expecting:
+    True
+ok
+Trying:
+    contains_substring("Sky","Skyrim")
+Expecting:
+    True
+ok
+Trying:
+    contains_substring("Gerald","The witcher")
+Expecting:
+    False
+ok
+Trying:
+    contains_substring("32","Hallo23")
+Expecting:
+    False
+ok
+Trying:
+    contains_substring("Salat","S a l a t")
+Expecting:
+    False
+ok
+Trying:
+    count_to_k(3)
+Expecting:
+    0
+    1
+    2
+ok
+Trying:
+    count_to_k(-2)
+Expecting:
+    0
+    -1
+ok
+Trying:
+    count_to_k(0)
+Expecting nothing
+ok
+Trying:
+    every_nth("Ich",2)
+Expecting:
+    'Ih'
+ok
+Trying:
+    every_nth("Programmierung",5)
+Expecting:
+    'Par'
+ok
+Trying:
+    every_nth("Apfelstrudel",3)
+Expecting:
+    'Aetd'
+ok
+Trying:
+    happy_birthday("Peter","17")
+Expecting:
+    Happy 17th birthday, Peter!
+ok
+Trying:
+    hello_semester()
+Expecting:
+    Welcome to "Symbolische Programmierung" WS 18/19
+ok
+Trying:
+    long_strings(listOne, 5)
+Expecting:
+    [True, False, False, True, True]
+ok
+Trying:
+    long_strings(["a", "bb", "", "ccc"], 1)
+Expecting:
+    [False, True, False, True]
+ok
+Trying:
+    modulo(5, 3)
+Expecting:
+    2
+ok
+Trying:
+    modulo(100, 24)
+Expecting:
+    4
+ok
+Trying:
+    modulo(70, 7)
+Expecting:
+    0
+ok
+Trying:
+    no_numbers("Guten Tag!")
+Expecting:
+    True
+ok
+Trying:
+    no_numbers("42 ist eine tolle Zahl")
+Expecting:
+    False
+ok
+Trying:
+    no_numbers("584jmdmdk30")
+Expecting:
+    False
+ok
+Trying:
+    no_numbers("A B C D E F G H I J K L")
+Expecting:
+    True
+ok
+Trying:
+    odd_number(15)
+Expecting:
+    True
+ok
+Trying:
+    odd_number(6)
+Expecting:
+    False
+ok
+Trying:
+    odd_number(-3)
+Expecting:
+    True
+ok
+Trying:
+    print_squares(listThree)
+Expecting:
+    25
+    16
+    64
+    36
+ok
+Trying:
+    replace_elements([1,2,3,4,5,6,7,8],[0,4,3],0)
+Expecting:
+    [0, 2, 3, 0, 0, 6, 7, 8]
+ok
+Trying:
+    replace_elements(listOne.copy(),[1,2,3],"North pole")
+Expecting:
+    ['Germany', 'North pole', 'North pole', 'North pole', 'France']
+ok
+Trying:
+    reverse("ABCDE")
+Expecting:
+    'EDCBA'
+ok
+Trying:
+    reverse("Info")
+Expecting:
+    'ofnI'
+ok
+Trying:
+    reverse("enoD lleW")
+Expecting:
+    'Well Done'
+ok
+Trying:
+    reverse("12345")
+Expecting:
+    '54321'
+ok
+Trying:
+    second_element(listOne)
+Expecting:
+    'Spain'
+ok
+Trying:
+    second_element(listTwo)
+Expecting:
+    2
+ok
+Trying:
+    swap_half(["FirstHalf", "FirstHalf", "SecondHalf", "SecondHalf"])
+Expecting:
+    ['SecondHalf', 'SecondHalf', 'FirstHalf', 'FirstHalf']
+ok
+Trying:
+    swap_half(listOne)
+Expecting:
+    ['Italy', 'Poland', 'France', 'Germany', 'Spain']
+ok
+Trying:
+    word_multiplier("Cheese", 3)
+Expecting:
+    'CheeseCheeseCheese'
+ok
+Trying:
+    word_multiplier("Apple", 2)
+Expecting:
+    'AppleApple'
+ok
+Trying:
+    word_multiplier('Fish', 0)
+Expecting:
+    ''
+ok
+1 items had no tests:
+    basics
+16 items passed all tests:
+   2 tests in basics.concatenate_lists
+   6 tests in basics.contains_substring
+   3 tests in basics.count_to_k
+   3 tests in basics.every_nth
+   1 tests in basics.happy_birthday
+   1 tests in basics.hello_semester
+   2 tests in basics.long_strings
+   3 tests in basics.modulo
+   4 tests in basics.no_numbers
+   3 tests in basics.odd_number
+   1 tests in basics.print_squares
+   2 tests in basics.replace_elements
+   4 tests in basics.reverse
+   2 tests in basics.second_element
+   2 tests in basics.swap_half
+   3 tests in basics.word_multiplier
+42 tests in 17 items.
+42 passed and 0 failed.
+Test passed.
