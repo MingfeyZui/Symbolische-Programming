@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from hw04_text_search.text_vectors import TextDocument, DocumentCollection
+from hw04_text_search.text_vectors import TextDocument, DocumentCollection, SearchEngine
 
 
 class DocumentCollectionTest(TestCase):
@@ -25,10 +25,18 @@ class DocumentCollectionTest(TestCase):
         # Similarity should be zero (instead of undefined).
         self.assertEqual(self.small_collection.cosine_similarity(query_doc, collection_doc), 0.)
 
+    def test_from_dir_abspath(self):
+        self.collection = DocumentCollection.from_dir("./data", ".txt")
+        self.assertEqual(self.collection.term_to_docids["cat"], {"/Users/yehaotian/Studium/SymPro/sympro_privat/hw4/Haotian/data/test_snippets_abspath_doc.txt"})
 
 class TextDocumentTest(TestCase):
-    # TODO: Unittests for TextDocument go here.
-    pass
+    def setUp(self):
+        self.test_file = TextDocument.from_file("test_from_file_doc.txt")
+
+
+    def test_from_file(self):
+        """ Extra blank space after possible non-char will also be stripped """
+        self.assertEqual(self.test_file.text, "this is a sentence")
 
 
 class SearchEngineTest(TestCase):

@@ -66,7 +66,7 @@ class DocumentCollection:
         dotAB = dot(weightedA, weightedB)
         normA = math.sqrt(dot(weightedA, weightedA))
         normB = math.sqrt(dot(weightedB, weightedB))
-        return dotAB / (normA * normB)
+        return dotAB / (normA * normB) if (normA * normB) != 0 else 0
 
 
 class SearchEngine:
