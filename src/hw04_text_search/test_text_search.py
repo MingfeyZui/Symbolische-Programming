@@ -2,6 +2,8 @@ from unittest import TestCase
 
 from hw04_text_search.text_vectors import TextDocument, DocumentCollection, SearchEngine
 
+import os
+
 
 class DocumentCollectionTest(TestCase):
 
@@ -27,7 +29,9 @@ class DocumentCollectionTest(TestCase):
 
     def test_from_dir_abspath(self):
         self.collection = DocumentCollection.from_dir("./data", ".txt")
-        self.assertEqual(self.collection.term_to_docids["cat"], {"/Users/yehaotian/Studium/SymPro/sympro_privat/hw4/Haotian/data/test_snippets_abspath_doc.txt"})
+        for id in self.collection.term_to_docids["cat"]:
+            self.assertTrue(os.path.isabs(id))
+        # self.assertEqual(self.collection.term_to_docids["cat"], {"/Users/yehaotian/Studium/SymPro/sympro_privat/hw4/Haotian/data/test_snippets_abspath_doc.txt"})
 
 class TextDocumentTest(TestCase):
     def setUp(self):

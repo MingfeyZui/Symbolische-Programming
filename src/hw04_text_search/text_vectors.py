@@ -20,8 +20,13 @@ class TextDocument:
     @classmethod
     def from_file(cls, filename):
         with open(filename, 'r') as myfile:
-            text = myfile.read().strip()
+            text = myfile.read()
+            while not text[0].isalpha():
+                text = text[1:]
+            while not text[-1].isalpha():
+                text = text[:-1]
         return cls(text, filename)
+
 
 
 class DocumentCollection:
@@ -35,7 +40,9 @@ class DocumentCollection:
 
     @classmethod
     def from_dir(cls, dir, file_suffix):
-        files = [(dir + "/" + f) for f in os.listdir(dir) if f.endswith(file_suffix)]
+        """ creates DocumentCollection objects from files with suffix file_suffix in dir
+        """
+        files = [(os.path.abspath(dir) + "/" + f) for f in os.listdir(dir) if f.endswith(file_suffix)]
         docs = [TextDocument.from_file(f) for f in files]
         return cls.from_document_list(docs)
 
