@@ -135,8 +135,9 @@ class SearchEngine:
         """ search for each token in query, return all contexts
         """
         tokens = normalized_tokens(query)
+        token_set = {i for i in tokens}
         text = document.text
-        for token in tokens:
+        for token in token_set:
             start = text.lower().find(token.lower())
             if -1 == start:
                 continue
