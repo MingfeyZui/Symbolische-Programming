@@ -4,6 +4,15 @@ import os, math
 
 
 def dot(dictA, dictB):
+    """
+     Gibt die Summe der multiplizierten values für die keys der dictionaries aus, aber nur wenn der key in beiden
+    dictionaries vorhanden ist
+
+    >>> dot({"001":3, "002":8, "003":2, "004":14}, {"001":8, "002":2, "003":12})
+    64
+    >>> dot({"first": 0.5, "second": 2.5, "third": 0.05}, {"first": 3, "second": 5})
+    14.0
+    """
     return sum([dictA.get(tok) * dictB.get(tok, 0) for tok in dictA])
 
 
@@ -52,7 +61,8 @@ class DocumentCollection:
 
     @classmethod
     def from_dir(cls, dir, file_suffix):
-        """ creates DocumentCollection objects from files with suffix file_suffix in dir
+        """
+        creates DocumentCollection objects from files with suffix file_suffix in dir
         """
         files = [(os.path.abspath(dir) + "/" + f) for f in os.listdir(dir) if f.endswith(file_suffix)]
         docs = [TextDocument.from_file(f) for f in files]
