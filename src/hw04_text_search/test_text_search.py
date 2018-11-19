@@ -33,6 +33,11 @@ class DocumentCollectionTest(TestCase):
             self.assertTrue(os.path.isabs(id))
         # self.assertEqual(self.collection.term_to_docids["cat"], {"/Users/yehaotian/Studium/SymPro/sympro_privat/hw4/Haotian/data/test_snippets_abspath_doc.txt"})
 
+    def test_docs_with_not_all_tokens(self):
+        """Wenn es kein Dokument mit allen Wörtnern der query gibt, gib zumindest docs mit einem term aus, von links nach rechts"""
+        tokens = ["rose", "cat"]
+        self.assertEqual(self.small_collection.docs_with_all_tokens(tokens), [self.small_collection.docid_to_doc["doc2"]])
+
 class TextDocumentTest(TestCase):
     def setUp(self):
         self.test_file = TextDocument.from_file("test_from_file_doc.txt")
@@ -44,5 +49,17 @@ class TextDocumentTest(TestCase):
 
 
 class SearchEngineTest(TestCase):
-    # TODO: Unittests for SearchEngine go here.
-    pass
+
+    def setUp(self):
+        test_doc_list = [TextDocument(text_and_id[0], text_and_id[1]) for text_and_id in
+                         [("the cat sat on a mat", "doc1"),
+                          ("a rose is a rose", "doc2")]]
+        self.small_collection = DocumentCollection.from_document_list(test_doc_list)
+
+    def test_count_snippets(self):
+        """Testet, ob nur 1 snippet für jedes individuelle token zurückgegeben wird"""
+        collection_doc = self.small_collection.docid_to_doc["doc1"]
+        counter = 0
+        for snippet in SearchEngine.snippets(self, "cat mat cat", collection_doc, window=50):
+            counter += 1
+        self.assertEqual(counter, 2)

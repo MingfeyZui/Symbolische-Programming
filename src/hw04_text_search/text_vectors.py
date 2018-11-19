@@ -59,22 +59,36 @@ class DocumentCollection:
         return cls(term_to_df, term_to_docids, docid_to_doc)
 
     def docs_with_all_tokens(self, tokens):
-        docids_for_each_token = [self.term_to_docids[token] for token in tokens]
-        docids = set.intersection(*docids_for_each_token)  # union?
-        return [self.docid_to_doc[id] for id in docids]
+        """
+        Gibt eine Liste mit doc_ids zurück, welche alle tokens beinhalten, bzw. welche mindestens ein token beinhalten
+        (nach Bearbeitung)
+        """
+        docids_for_each_token = [self.term_to_docids[token] for token in tokens]  # Liste mit sets der doc_ids
+        docids = set.intersection(*docids_for_each_token)  # union?   Schnittmenge der sets
+        if len(docids) == 0:
+            docids1 = docids_for_each_token[0]
+            return [self.docid_to_doc[id] for id in docids1]  # docs mit zumindest einem token
+        else:
+            return [self.docid_to_doc[id] for id in docids]  # docs mit allen token
 
     def tfidf(self, counts):
         N = len(self.docid_to_doc)
         return {tok: tf * math.log(N / self.term_to_df[tok]) for tok, tf in counts.items() if tok in self.term_to_df}
 
     def cosine_similarity(self, docA, docB):
-        weightedA = self.tfidf(docA.token_counts)
+        """
+        Berechnet den Cosinus zwischen 2 Dokumenten
+        """
+        weightedA = self.tfidf(docA.token_counts)  # token_counts ist term_to_tf
         weightedB = self.tfidf(docB.token_counts)
         dotAB = dot(weightedA, weightedB)
         normA = math.sqrt(dot(weightedA, weightedA))
         normB = math.sqrt(dot(weightedB, weightedB))
-        return dotAB / (normA * normB) if (normA * normB) != 0 else 0
 
+        if dotAB == 0:
+            return 0
+        else:
+            return dotAB / (normA * normB)
 
 class SearchEngine:
     def __init__(self, doc_collection):
