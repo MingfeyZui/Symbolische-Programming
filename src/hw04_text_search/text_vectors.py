@@ -8,17 +8,27 @@ def dot(dictA, dictB):
 
 
 def normalized_tokens(text):
+    """ returns a list with lower case tokenized text
+    >>> normalized_tokens("Hello World.")
+    ['hello', 'world', '.']
+    >>> normalized_tokens("This is a Test Sentence")
+    ['this', 'is', 'a', 'test', 'sentence']
+    """
     return [token.lower() for token in word_tokenize(text)]
 
 
 class TextDocument:
     def __init__(self, text, id=None):
+        """ creates a TextDocument object with variables text, doc id and a frequency list
+        """
         self.text = text
         self.token_counts = FreqDist(normalized_tokens(text))
         self.id = id
 
     @classmethod
     def from_file(cls, filename):
+        """ returns a TextDocument object with text read from the file(filename) and filename as the doc id
+        """
         with open(filename, 'r') as myfile:
             text = myfile.read()
             while not text[0].isalpha():
@@ -31,6 +41,8 @@ class TextDocument:
 
 class DocumentCollection:
     def __init__(self, term_to_df, term_to_docids, docid_to_doc):
+        """ creates DocumentCollection object, passes in term_to_df, term_to_docids, docid_to_doc
+        """
         # string to int
         self.term_to_df = term_to_df
         # string to set of string
@@ -48,6 +60,8 @@ class DocumentCollection:
 
     @classmethod
     def from_document_list(cls, docs):
+        """ creates DocumentCollection objects from a list of documents(docs)
+        """
         term_to_df = defaultdict(int)
         term_to_docids = defaultdict(set)
         docid_to_doc = dict()
@@ -72,6 +86,8 @@ class DocumentCollection:
             return [self.docid_to_doc[id] for id in docids]  # docs mit allen token
 
     def tfidf(self, counts):
+        """ returns a dictionary mapping all tokens to their tf-idfs
+        """
         N = len(self.docid_to_doc)
         return {tok: tf * math.log(N / self.term_to_df[tok]) for tok, tf in counts.items() if tok in self.term_to_df}
 
@@ -92,9 +108,13 @@ class DocumentCollection:
 
 class SearchEngine:
     def __init__(self, doc_collection):
+        """ creates SearchEngine object with a class object of DocumentCollection
+        """
         self.doc_collection = doc_collection
 
     def ranked_documents(self, query):
+        """ creates a TextDocument object query with text = query, docs includes all documents with all tokens in query, docs_sims returns a list of cosine similarities, which in the end will be sorted and returned
+        """
         query_doc = TextDocument(query)
         query_tokens = query_doc.token_counts.keys()
         docs = self.doc_collection.docs_with_all_tokens(query_tokens)
@@ -102,6 +122,8 @@ class SearchEngine:
         return sorted(docs_sims, key=lambda x: -x[1])
 
     def snippets(self, query, document, window=50):
+        """ search for each token in query, return all contexts
+        """
         tokens = normalized_tokens(query)
         text = document.text
         for token in tokens:
