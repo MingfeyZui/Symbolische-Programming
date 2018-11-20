@@ -1,7 +1,7 @@
 import copy
 import json
 
-from Hw_05_Perceptron.utils.documents import dot
+from hw05_perceptron.utils.documents import dot
 
 
 class PerceptronClassifier:

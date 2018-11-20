@@ -1,8 +1,8 @@
 from unittest import TestCase
-from Hw_05_Perceptron.utils.documents import TextDocument, DocumentCollection
-from Hw_05_Perceptron.utils.data import Dataset, DataInstance
-from Hw_05_Perceptron.perceptron import PerceptronClassifier
-from Hw_05_Perceptron.sentiment import nltk_movie_review_accuracy
+from hw05_perceptron.utils.documents import TextDocument, DocumentCollection
+from hw05_perceptron.utils.data import Dataset, DataInstance
+from hw05_perceptron.perceptron import PerceptronClassifier
+from hw05_perceptron.sentiment import nltk_movie_review_accuracy
 
 # Ham mails: 1 (positive data)
 # Spam mails: -1 (negative data)

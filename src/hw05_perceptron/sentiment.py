@@ -1,8 +1,8 @@
 import random
 
-from Hw_05_Perceptron.utils.data import Dataset
-from Hw_05_Perceptron.utils.documents import TextDocument, DocumentCollection
-from Hw_05_Perceptron.perceptron import PerceptronClassifier
+from hw05_perceptron.utils.data import Dataset
+from hw05_perceptron.utils.documents import TextDocument, DocumentCollection
+from hw05_perceptron.perceptron import PerceptronClassifier
 
 from nltk.corpus import movie_reviews
 
