@@ -1,0 +1,13 @@
+hw04_text_search.test_comprehensions.TestComprehensions.test_multiply_by OK        1/1 points
+hw04_text_search.test_comprehensions.TestComprehensions.test_check_division OK        1/1 points
+hw04_text_search.test_comprehensions.TestComprehensions.test_div_less OK        1/1 points
+hw04_text_search.test_comprehensions.TestComprehensions.test_map_zip  OK        1/1 points
+hw04_text_search.test_comprehensions.TestComprehensions.test_word_to_length OK        1/1 points
+hw04_text_search.test_text_search.DocumentCollectionTest.test_unknown_word_cosine OK        2/2 points
+####################################
+TOTAL: 3.5/3.5 points
+
+Ex.3.1	Ex.3.2	Ex.4	Total
+2/2	5.5/5.5	8/8	15.5
+
+TOTAL : 19/19	
