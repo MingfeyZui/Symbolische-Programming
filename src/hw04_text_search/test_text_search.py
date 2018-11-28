@@ -36,7 +36,6 @@ class DocumentCollectionTest(TestCase):
         self.collection = DocumentCollection.from_dir("./data", ".txt")
         for id in self.collection.term_to_docids["cat"]:
             self.assertTrue(os.path.isabs(id))
-        # self.assertEqual(self.collection.term_to_docids["cat"], {"/Users/yehaotian/Studium/SymPro/sympro_privat/hw4/Haotian/data/test_snippets_abspath_doc.txt"})
 
     def test_docs_with_not_all_tokens(self):
         """

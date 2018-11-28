@@ -16,7 +16,9 @@ class PerceptronClassifier:
         """
         # TODO: Open and read form file at "filename"
         # weights = json.load(modelfile)
-        return cls({})
+        with open(filename, "r") as modelfile:
+            weights = json.load(modelfile)
+        return cls(weights)
 
     @classmethod
     def from_dataset(cls, dataset):  # TODO
@@ -24,14 +26,16 @@ class PerceptronClassifier:
         Initialize PerceptronClassifier for dataset. A classifier that
         is constructed with this method still needs to be trained..
         """
-        return cls({})  # TODO: Exercise 1
+        return cls({token:0 for token in dataset.feature_set})
 
     def prediction(self, counts):  # TODO
         """
         Return True if prediction for counts is ham, False if prediction is spam
         counts: Bag of words representation of email
         """
-        return 0  # TODO: Exercise 2
+        if sum([counts[tok]*self.weights[tok] for tok in counts]) > 0:
+            return 1
+        return -1  # TODO: Exercise 2
 
     def update(self, instance):  # TODO
         """
@@ -39,11 +43,16 @@ class PerceptronClassifier:
         Return a boolean value indicating whether an update was performed.
         """
         predicted_output = self.prediction(instance.feature_counts)
-        error = 0  # TODO: Exercise 3: Replace with correct calculation of error
+        if predicted_output == 1 and instance.label == -1:
+            error = 1
+        elif predicted_output == -1 and instance.label == 1:
+            error = -1
+        else:  # TODO: Exercise 3: Replace with correct calculation of error
+            error = 0
         do_update = error != 0
         if do_update:
             for feature, count in instance.feature_counts.items():
-                pass  # TODO: Exercise 3: Replace pass with update of feature weights
+                self.weights[feature] -= error*count
         return do_update
 
     def training_iteration(self, dataset):
