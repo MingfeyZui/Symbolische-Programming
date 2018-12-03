@@ -1,0 +1,333 @@
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.009s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.104s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 18.233s
+
+OK
+Training with 100 features...
+Iteration: 0 	 Train Accuracy: 0.5142 	 Dev Accuracy: 0.5000 	 Best Dev Accuracy: 0.5000
+Iteration: 1 	 Train Accuracy: 0.6908 	 Dev Accuracy: 0.6775 	 Best Dev Accuracy: 0.6775
+Iteration: 2 	 Train Accuracy: 0.6917 	 Dev Accuracy: 0.6875 	 Best Dev Accuracy: 0.6875
+Iteration: 3 	 Train Accuracy: 0.5158 	 Dev Accuracy: 0.5025 	 Best Dev Accuracy: 0.6875
+Iteration: 4 	 Train Accuracy: 0.5175 	 Dev Accuracy: 0.4975 	 Best Dev Accuracy: 0.6875
+Iteration: 5 	 Train Accuracy: 0.7000 	 Dev Accuracy: 0.6850 	 Best Dev Accuracy: 0.6875
+Iteration: 6 	 Train Accuracy: 0.7192 	 Dev Accuracy: 0.7050 	 Best Dev Accuracy: 0.7050
+Iteration: 7 	 Train Accuracy: 0.4925 	 Dev Accuracy: 0.5200 	 Best Dev Accuracy: 0.7050
+Iteration: 8 	 Train Accuracy: 0.6317 	 Dev Accuracy: 0.6250 	 Best Dev Accuracy: 0.7050
+Iteration: 9 	 Train Accuracy: 0.6842 	 Dev Accuracy: 0.6650 	 Best Dev Accuracy: 0.7050
+Iteration: 10 	 Train Accuracy: 0.6767 	 Dev Accuracy: 0.6850 	 Best Dev Accuracy: 0.7050
+Iteration: 11 	 Train Accuracy: 0.5583 	 Dev Accuracy: 0.6075 	 Best Dev Accuracy: 0.7050
+Iteration: 12 	 Train Accuracy: 0.7583 	 Dev Accuracy: 0.7175 	 Best Dev Accuracy: 0.7175
+Iteration: 13 	 Train Accuracy: 0.6875 	 Dev Accuracy: 0.6700 	 Best Dev Accuracy: 0.7175
+Iteration: 14 	 Train Accuracy: 0.5250 	 Dev Accuracy: 0.5500 	 Best Dev Accuracy: 0.7175
+Iteration: 15 	 Train Accuracy: 0.6383 	 Dev Accuracy: 0.6500 	 Best Dev Accuracy: 0.7175
+Iteration: 16 	 Train Accuracy: 0.7400 	 Dev Accuracy: 0.7375 	 Best Dev Accuracy: 0.7375
+Iteration: 17 	 Train Accuracy: 0.6908 	 Dev Accuracy: 0.6800 	 Best Dev Accuracy: 0.7375
+Iteration: 18 	 Train Accuracy: 0.7250 	 Dev Accuracy: 0.6725 	 Best Dev Accuracy: 0.7375
+Iteration: 19 	 Train Accuracy: 0.7467 	 Dev Accuracy: 0.7100 	 Best Dev Accuracy: 0.7375
+Training with 1000 features...
+Iteration: 0 	 Train Accuracy: 0.5375 	 Dev Accuracy: 0.5450 	 Best Dev Accuracy: 0.5450
+Iteration: 1 	 Train Accuracy: 0.6975 	 Dev Accuracy: 0.6600 	 Best Dev Accuracy: 0.6600
+Iteration: 2 	 Train Accuracy: 0.7100 	 Dev Accuracy: 0.6750 	 Best Dev Accuracy: 0.6750
+Iteration: 3 	 Train Accuracy: 0.8383 	 Dev Accuracy: 0.7950 	 Best Dev Accuracy: 0.7950
+Iteration: 4 	 Train Accuracy: 0.8458 	 Dev Accuracy: 0.7675 	 Best Dev Accuracy: 0.7950
+Iteration: 5 	 Train Accuracy: 0.8075 	 Dev Accuracy: 0.7425 	 Best Dev Accuracy: 0.7950
+Iteration: 6 	 Train Accuracy: 0.8508 	 Dev Accuracy: 0.7775 	 Best Dev Accuracy: 0.7950
+Iteration: 7 	 Train Accuracy: 0.8042 	 Dev Accuracy: 0.7425 	 Best Dev Accuracy: 0.7950
+Iteration: 8 	 Train Accuracy: 0.8800 	 Dev Accuracy: 0.8000 	 Best Dev Accuracy: 0.8000
+Iteration: 9 	 Train Accuracy: 0.7183 	 Dev Accuracy: 0.6800 	 Best Dev Accuracy: 0.8000
+Iteration: 10 	 Train Accuracy: 0.6167 	 Dev Accuracy: 0.6200 	 Best Dev Accuracy: 0.8000
+Iteration: 11 	 Train Accuracy: 0.8950 	 Dev Accuracy: 0.7975 	 Best Dev Accuracy: 0.8000
+Iteration: 12 	 Train Accuracy: 0.8233 	 Dev Accuracy: 0.7475 	 Best Dev Accuracy: 0.8000
+Iteration: 13 	 Train Accuracy: 0.8308 	 Dev Accuracy: 0.7550 	 Best Dev Accuracy: 0.8000
+Iteration: 14 	 Train Accuracy: 0.7608 	 Dev Accuracy: 0.7250 	 Best Dev Accuracy: 0.8000
+Iteration: 15 	 Train Accuracy: 0.7750 	 Dev Accuracy: 0.7250 	 Best Dev Accuracy: 0.8000
+Iteration: 16 	 Train Accuracy: 0.9158 	 Dev Accuracy: 0.8125 	 Best Dev Accuracy: 0.8125
+Iteration: 17 	 Train Accuracy: 0.8933 	 Dev Accuracy: 0.7975 	 Best Dev Accuracy: 0.8125
+Iteration: 18 	 Train Accuracy: 0.9250 	 Dev Accuracy: 0.7925 	 Best Dev Accuracy: 0.8125
+Iteration: 19 	 Train Accuracy: 0.9142 	 Dev Accuracy: 0.8050 	 Best Dev Accuracy: 0.8125
+Training with 10000 features...
+Iteration: 0 	 Train Accuracy: 0.4875 	 Dev Accuracy: 0.5000 	 Best Dev Accuracy: 0.5000
+Iteration: 1 	 Train Accuracy: 0.7967 	 Dev Accuracy: 0.7675 	 Best Dev Accuracy: 0.7675
+Iteration: 2 	 Train Accuracy: 0.5258 	 Dev Accuracy: 0.5425 	 Best Dev Accuracy: 0.7675
+Iteration: 3 	 Train Accuracy: 0.7725 	 Dev Accuracy: 0.7375 	 Best Dev Accuracy: 0.7675
+Iteration: 4 	 Train Accuracy: 0.7683 	 Dev Accuracy: 0.6925 	 Best Dev Accuracy: 0.7675
+Iteration: 5 	 Train Accuracy: 0.4892 	 Dev Accuracy: 0.5025 	 Best Dev Accuracy: 0.7675
+Iteration: 6 	 Train Accuracy: 0.9158 	 Dev Accuracy: 0.8075 	 Best Dev Accuracy: 0.8075
+Iteration: 7 	 Train Accuracy: 0.9158 	 Dev Accuracy: 0.7775 	 Best Dev Accuracy: 0.8075
+Iteration: 8 	 Train Accuracy: 0.5575 	 Dev Accuracy: 0.5325 	 Best Dev Accuracy: 0.8075
+Iteration: 9 	 Train Accuracy: 0.9400 	 Dev Accuracy: 0.8050 	 Best Dev Accuracy: 0.8075
+Iteration: 10 	 Train Accuracy: 0.9600 	 Dev Accuracy: 0.8075 	 Best Dev Accuracy: 0.8075
+Iteration: 11 	 Train Accuracy: 0.9650 	 Dev Accuracy: 0.8100 	 Best Dev Accuracy: 0.8100
+Iteration: 12 	 Train Accuracy: 0.9617 	 Dev Accuracy: 0.8325 	 Best Dev Accuracy: 0.8325
+Iteration: 13 	 Train Accuracy: 0.9417 	 Dev Accuracy: 0.8325 	 Best Dev Accuracy: 0.8325
+Iteration: 14 	 Train Accuracy: 0.9725 	 Dev Accuracy: 0.8375 	 Best Dev Accuracy: 0.8375
+Iteration: 15 	 Train Accuracy: 0.9550 	 Dev Accuracy: 0.8075 	 Best Dev Accuracy: 0.8375
+Iteration: 16 	 Train Accuracy: 0.9667 	 Dev Accuracy: 0.8175 	 Best Dev Accuracy: 0.8375
+Iteration: 17 	 Train Accuracy: 0.8958 	 Dev Accuracy: 0.7725 	 Best Dev Accuracy: 0.8375
+Iteration: 18 	 Train Accuracy: 0.8858 	 Dev Accuracy: 0.7550 	 Best Dev Accuracy: 0.8375
+Iteration: 19 	 Train Accuracy: 0.9367 	 Dev Accuracy: 0.7800 	 Best Dev Accuracy: 0.8375
+Best classifier with 10000 features: 	 Train Accuracy: 0.9725 	 Dev Accuracy: 0.8375
+Best number of features: 10000 
+Top features for positive class:
+[('life', 364), ('seen', 355), ('see', 308), ('also', 288), ('way', 282), ('quite', 280), ('back', 257), ('many', 246), ('good', 236), ('very', 229)]
+Top features for negative class:
+[('bad', -627), ('only', -355), ('worst', -332), ('any', -327), ('no', -323), ('unfortunately', -294), ('nothing', -293), ('boring', -271), ('script', -263), ('here', -252)]
+Test score for best setting: 0.8025
+.
+----------------------------------------------------------------------
+Ran 1 test in 18.024s
+
+OK
+Training with 100 features...
+Iteration: 0 	 Train Accuracy: 0.6800 	 Dev Accuracy: 0.6425 	 Best Dev Accuracy: 0.6425
+Iteration: 1 	 Train Accuracy: 0.6967 	 Dev Accuracy: 0.6950 	 Best Dev Accuracy: 0.6950
+Iteration: 2 	 Train Accuracy: 0.6767 	 Dev Accuracy: 0.6625 	 Best Dev Accuracy: 0.6950
+Iteration: 3 	 Train Accuracy: 0.5958 	 Dev Accuracy: 0.6175 	 Best Dev Accuracy: 0.6950
+Iteration: 4 	 Train Accuracy: 0.7183 	 Dev Accuracy: 0.7100 	 Best Dev Accuracy: 0.7100
+Iteration: 5 	 Train Accuracy: 0.7283 	 Dev Accuracy: 0.7250 	 Best Dev Accuracy: 0.7250
+Iteration: 6 	 Train Accuracy: 0.7217 	 Dev Accuracy: 0.6925 	 Best Dev Accuracy: 0.7250
+Iteration: 7 	 Train Accuracy: 0.5650 	 Dev Accuracy: 0.5475 	 Best Dev Accuracy: 0.7250
+Iteration: 8 	 Train Accuracy: 0.4875 	 Dev Accuracy: 0.5000 	 Best Dev Accuracy: 0.7250
+Iteration: 9 	 Train Accuracy: 0.7475 	 Dev Accuracy: 0.7125 	 Best Dev Accuracy: 0.7250
+Iteration: 10 	 Train Accuracy: 0.6058 	 Dev Accuracy: 0.6125 	 Best Dev Accuracy: 0.7250
+Iteration: 11 	 Train Accuracy: 0.7242 	 Dev Accuracy: 0.6925 	 Best Dev Accuracy: 0.7250
+Iteration: 12 	 Train Accuracy: 0.7042 	 Dev Accuracy: 0.6725 	 Best Dev Accuracy: 0.7250
+Iteration: 13 	 Train Accuracy: 0.5417 	 Dev Accuracy: 0.5625 	 Best Dev Accuracy: 0.7250
+Iteration: 14 	 Train Accuracy: 0.7042 	 Dev Accuracy: 0.6725 	 Best Dev Accuracy: 0.7250
+Iteration: 15 	 Train Accuracy: 0.7392 	 Dev Accuracy: 0.7450 	 Best Dev Accuracy: 0.7450
+Iteration: 16 	 Train Accuracy: 0.7433 	 Dev Accuracy: 0.7125 	 Best Dev Accuracy: 0.7450
+Iteration: 17 	 Train Accuracy: 0.6450 	 Dev Accuracy: 0.6225 	 Best Dev Accuracy: 0.7450
+Iteration: 18 	 Train Accuracy: 0.6208 	 Dev Accuracy: 0.6400 	 Best Dev Accuracy: 0.7450
+Iteration: 19 	 Train Accuracy: 0.5208 	 Dev Accuracy: 0.5075 	 Best Dev Accuracy: 0.7450
+Training with 1000 features...
+Iteration: 0 	 Train Accuracy: 0.7283 	 Dev Accuracy: 0.6825 	 Best Dev Accuracy: 0.6825
+Iteration: 1 	 Train Accuracy: 0.5367 	 Dev Accuracy: 0.5200 	 Best Dev Accuracy: 0.6825
+Iteration: 2 	 Train Accuracy: 0.7767 	 Dev Accuracy: 0.7150 	 Best Dev Accuracy: 0.7150
+Iteration: 3 	 Train Accuracy: 0.5500 	 Dev Accuracy: 0.5525 	 Best Dev Accuracy: 0.7150
+Iteration: 4 	 Train Accuracy: 0.7033 	 Dev Accuracy: 0.6825 	 Best Dev Accuracy: 0.7150
+Iteration: 5 	 Train Accuracy: 0.7108 	 Dev Accuracy: 0.6525 	 Best Dev Accuracy: 0.7150
+Iteration: 6 	 Train Accuracy: 0.5192 	 Dev Accuracy: 0.5000 	 Best Dev Accuracy: 0.7150
+Iteration: 7 	 Train Accuracy: 0.8033 	 Dev Accuracy: 0.7500 	 Best Dev Accuracy: 0.7500
+Iteration: 8 	 Train Accuracy: 0.8717 	 Dev Accuracy: 0.7950 	 Best Dev Accuracy: 0.7950
+Iteration: 9 	 Train Accuracy: 0.6100 	 Dev Accuracy: 0.6125 	 Best Dev Accuracy: 0.7950
+Iteration: 10 	 Train Accuracy: 0.8033 	 Dev Accuracy: 0.7450 	 Best Dev Accuracy: 0.7950
+Iteration: 11 	 Train Accuracy: 0.8842 	 Dev Accuracy: 0.8100 	 Best Dev Accuracy: 0.8100
+Iteration: 12 	 Train Accuracy: 0.7117 	 Dev Accuracy: 0.6725 	 Best Dev Accuracy: 0.8100
+Iteration: 13 	 Train Accuracy: 0.9008 	 Dev Accuracy: 0.8075 	 Best Dev Accuracy: 0.8100
+Iteration: 14 	 Train Accuracy: 0.9167 	 Dev Accuracy: 0.8100 	 Best Dev Accuracy: 0.8100
+Iteration: 15 	 Train Accuracy: 0.8650 	 Dev Accuracy: 0.7800 	 Best Dev Accuracy: 0.8100
+Iteration: 16 	 Train Accuracy: 0.9125 	 Dev Accuracy: 0.8275 	 Best Dev Accuracy: 0.8275
+Iteration: 17 	 Train Accuracy: 0.8242 	 Dev Accuracy: 0.7800 	 Best Dev Accuracy: 0.8275
+Iteration: 18 	 Train Accuracy: 0.8667 	 Dev Accuracy: 0.7850 	 Best Dev Accuracy: 0.8275
+Iteration: 19 	 Train Accuracy: 0.5933 	 Dev Accuracy: 0.5925 	 Best Dev Accuracy: 0.8275
+Training with 10000 features...
+Iteration: 0 	 Train Accuracy: 0.5717 	 Dev Accuracy: 0.5525 	 Best Dev Accuracy: 0.5525
+Iteration: 1 	 Train Accuracy: 0.8183 	 Dev Accuracy: 0.7475 	 Best Dev Accuracy: 0.7475
+Iteration: 2 	 Train Accuracy: 0.6292 	 Dev Accuracy: 0.6100 	 Best Dev Accuracy: 0.7475
+Iteration: 3 	 Train Accuracy: 0.5575 	 Dev Accuracy: 0.5375 	 Best Dev Accuracy: 0.7475
+Iteration: 4 	 Train Accuracy: 0.8858 	 Dev Accuracy: 0.7775 	 Best Dev Accuracy: 0.7775
+Iteration: 5 	 Train Accuracy: 0.8392 	 Dev Accuracy: 0.7375 	 Best Dev Accuracy: 0.7775
+Iteration: 6 	 Train Accuracy: 0.9358 	 Dev Accuracy: 0.8250 	 Best Dev Accuracy: 0.8250
+Iteration: 7 	 Train Accuracy: 0.8858 	 Dev Accuracy: 0.8025 	 Best Dev Accuracy: 0.8250
+Iteration: 8 	 Train Accuracy: 0.9467 	 Dev Accuracy: 0.8100 	 Best Dev Accuracy: 0.8250
+Iteration: 9 	 Train Accuracy: 0.8267 	 Dev Accuracy: 0.7475 	 Best Dev Accuracy: 0.8250
+Iteration: 10 	 Train Accuracy: 0.8808 	 Dev Accuracy: 0.7625 	 Best Dev Accuracy: 0.8250
+Iteration: 11 	 Train Accuracy: 0.9350 	 Dev Accuracy: 0.7800 	 Best Dev Accuracy: 0.8250
+Iteration: 12 	 Train Accuracy: 0.9492 	 Dev Accuracy: 0.8000 	 Best Dev Accuracy: 0.8250
+Iteration: 13 	 Train Accuracy: 0.9767 	 Dev Accuracy: 0.8125 	 Best Dev Accuracy: 0.8250
+Iteration: 14 	 Train Accuracy: 0.9808 	 Dev Accuracy: 0.8150 	 Best Dev Accuracy: 0.8250
+Iteration: 15 	 Train Accuracy: 0.9200 	 Dev Accuracy: 0.7775 	 Best Dev Accuracy: 0.8250
+Iteration: 16 	 Train Accuracy: 0.8275 	 Dev Accuracy: 0.7350 	 Best Dev Accuracy: 0.8250
+Iteration: 17 	 Train Accuracy: 0.9875 	 Dev Accuracy: 0.8125 	 Best Dev Accuracy: 0.8250
+Iteration: 18 	 Train Accuracy: 0.9742 	 Dev Accuracy: 0.8025 	 Best Dev Accuracy: 0.8250
+Iteration: 19 	 Train Accuracy: 0.9792 	 Dev Accuracy: 0.8175 	 Best Dev Accuracy: 0.8250
+Best classifier with 10000 features: 	 Train Accuracy: 0.9358 	 Dev Accuracy: 0.8275
+Best number of features: 1000 
+Top features for positive class:
+[('seen', 439), ('life', 435), ('quite', 416), ('see', 333), ('also', 332), ('back', 315), ('very', 304), ('good', 300), ('well', 289), ('fiction', 288)]
+Top features for negative class:
+[('bad', -751), ('only', -464), ('worst', -440), ('unfortunately', -425), ('any', -388), ('better', -376), ('boring', -357), ('nothing', -355), ('no', -347), ('script', -344)]
+Test score for best setting: 0.7775
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.054s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.075s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 24.898s
+
+OK
+Training with 100 features...
+Iteration: 0 	 Train Accuracy: 0.6750 	 Dev Accuracy: 0.6925 	 Best Dev Accuracy: 0.6925
+Training with 1000 features...
+Iteration: 0 	 Train Accuracy: 0.6267 	 Dev Accuracy: 0.6625 	 Best Dev Accuracy: 0.6625
+Training with 10000 features...
+Iteration: 0 	 Train Accuracy: 0.7450 	 Dev Accuracy: 0.6725 	 Best Dev Accuracy: 0.6725
+Best classifier with 10000 features: 	 Train Accuracy: 0.7450 	 Dev Accuracy: 0.6925
+Best number of features: 100 
+Top features for positive class:
+[('and', 196), ('as', 158), ('you', 106), ('also', 101), ('very', 99), ('from', 91), ('the', 88), ('he', 88), (',', 65), ('most', 59)]
+Top features for negative class:
+[('?', -136), ('to', -135), ('on', -134), ('no', -126), ('there', -120), ('.', -115), ('was', -112), ("n't", -109), ('only', -104), ('about', -101)]
+Test score for best setting: 0.6450
+Training with 100 features...
+Iteration: 0 	 Train Accuracy: 0.5392 	 Dev Accuracy: 0.5125 	 Best Dev Accuracy: 0.5125
+Iteration: 1 	 Train Accuracy: 0.6675 	 Dev Accuracy: 0.6575 	 Best Dev Accuracy: 0.6575
+Iteration: 2 	 Train Accuracy: 0.5992 	 Dev Accuracy: 0.6250 	 Best Dev Accuracy: 0.6575
+Iteration: 3 	 Train Accuracy: 0.5267 	 Dev Accuracy: 0.5475 	 Best Dev Accuracy: 0.6575
+Iteration: 4 	 Train Accuracy: 0.6525 	 Dev Accuracy: 0.6450 	 Best Dev Accuracy: 0.6575
+Iteration: 5 	 Train Accuracy: 0.6033 	 Dev Accuracy: 0.5925 	 Best Dev Accuracy: 0.6575
+Iteration: 6 	 Train Accuracy: 0.6958 	 Dev Accuracy: 0.6425 	 Best Dev Accuracy: 0.6575
+Iteration: 7 	 Train Accuracy: 0.7217 	 Dev Accuracy: 0.7125 	 Best Dev Accuracy: 0.7125
+Iteration: 8 	 Train Accuracy: 0.7442 	 Dev Accuracy: 0.7300 	 Best Dev Accuracy: 0.7300
+Iteration: 9 	 Train Accuracy: 0.6483 	 Dev Accuracy: 0.6475 	 Best Dev Accuracy: 0.7300
+Training with 1000 features...
+Iteration: 0 	 Train Accuracy: 0.5400 	 Dev Accuracy: 0.5675 	 Best Dev Accuracy: 0.5675
+Iteration: 1 	 Train Accuracy: 0.7708 	 Dev Accuracy: 0.7725 	 Best Dev Accuracy: 0.7725
+Iteration: 2 	 Train Accuracy: 0.6267 	 Dev Accuracy: 0.6350 	 Best Dev Accuracy: 0.7725
+Iteration: 3 	 Train Accuracy: 0.8233 	 Dev Accuracy: 0.7775 	 Best Dev Accuracy: 0.7775
+Iteration: 4 	 Train Accuracy: 0.5267 	 Dev Accuracy: 0.5525 	 Best Dev Accuracy: 0.7775
+Iteration: 5 	 Train Accuracy: 0.7525 	 Dev Accuracy: 0.7125 	 Best Dev Accuracy: 0.7775
+Iteration: 6 	 Train Accuracy: 0.6583 	 Dev Accuracy: 0.6625 	 Best Dev Accuracy: 0.7775
+Iteration: 7 	 Train Accuracy: 0.6217 	 Dev Accuracy: 0.6175 	 Best Dev Accuracy: 0.7775
+Iteration: 8 	 Train Accuracy: 0.8817 	 Dev Accuracy: 0.8025 	 Best Dev Accuracy: 0.8025
+Iteration: 9 	 Train Accuracy: 0.7483 	 Dev Accuracy: 0.7150 	 Best Dev Accuracy: 0.8025
+Training with 10000 features...
+Iteration: 0 	 Train Accuracy: 0.6992 	 Dev Accuracy: 0.6725 	 Best Dev Accuracy: 0.6725
+Iteration: 1 	 Train Accuracy: 0.8250 	 Dev Accuracy: 0.7550 	 Best Dev Accuracy: 0.7550
+Iteration: 2 	 Train Accuracy: 0.8658 	 Dev Accuracy: 0.8050 	 Best Dev Accuracy: 0.8050
+Iteration: 3 	 Train Accuracy: 0.7550 	 Dev Accuracy: 0.6975 	 Best Dev Accuracy: 0.8050
+Iteration: 4 	 Train Accuracy: 0.6950 	 Dev Accuracy: 0.6550 	 Best Dev Accuracy: 0.8050
+Iteration: 5 	 Train Accuracy: 0.7858 	 Dev Accuracy: 0.7075 	 Best Dev Accuracy: 0.8050
+Iteration: 6 	 Train Accuracy: 0.9258 	 Dev Accuracy: 0.8100 	 Best Dev Accuracy: 0.8100
+Iteration: 7 	 Train Accuracy: 0.9392 	 Dev Accuracy: 0.8050 	 Best Dev Accuracy: 0.8100
+Iteration: 8 	 Train Accuracy: 0.9267 	 Dev Accuracy: 0.8150 	 Best Dev Accuracy: 0.8150
+Iteration: 9 	 Train Accuracy: 0.9442 	 Dev Accuracy: 0.8150 	 Best Dev Accuracy: 0.8150
+Best classifier with 10000 features: 	 Train Accuracy: 0.9267 	 Dev Accuracy: 0.8150
+Best number of features: 10000 
+Top features for positive class:
+[('life', 325), ('seen', 282), ('see', 264), ('also', 261), ('quite', 244), ('very', 219), ('you', 216), ('jackie', 201), ('way', 191), ('best', 190)]
+Top features for negative class:
+[('bad', -490), ('no', -300), ('only', -299), ('worst', -270), ('any', -234), ('could', -220), ('boring', -214), ('here', -213), ('off', -212), ('looks', -209)]
+Test score for best setting: 0.7775
+.
+----------------------------------------------------------------------
+Ran 1 test in 14.404s
+
+OK
+Training with 100 features...
+Iteration: 0 	 Train Accuracy: 0.6242 	 Dev Accuracy: 0.6200 	 Best Dev Accuracy: 0.6200
+Iteration: 1 	 Train Accuracy: 0.5208 	 Dev Accuracy: 0.4975 	 Best Dev Accuracy: 0.6200
+Iteration: 2 	 Train Accuracy: 0.4892 	 Dev Accuracy: 0.5000 	 Best Dev Accuracy: 0.6200
+Iteration: 3 	 Train Accuracy: 0.5042 	 Dev Accuracy: 0.5250 	 Best Dev Accuracy: 0.6200
+Iteration: 4 	 Train Accuracy: 0.6900 	 Dev Accuracy: 0.6725 	 Best Dev Accuracy: 0.6725
+Iteration: 5 	 Train Accuracy: 0.5992 	 Dev Accuracy: 0.5600 	 Best Dev Accuracy: 0.6725
+Iteration: 6 	 Train Accuracy: 0.6425 	 Dev Accuracy: 0.6675 	 Best Dev Accuracy: 0.6725
+Iteration: 7 	 Train Accuracy: 0.5908 	 Dev Accuracy: 0.6075 	 Best Dev Accuracy: 0.6725
+Iteration: 8 	 Train Accuracy: 0.7333 	 Dev Accuracy: 0.7175 	 Best Dev Accuracy: 0.7175
+Iteration: 9 	 Train Accuracy: 0.7442 	 Dev Accuracy: 0.6925 	 Best Dev Accuracy: 0.7175
+Training with 1000 features...
+Iteration: 0 	 Train Accuracy: 0.6617 	 Dev Accuracy: 0.6500 	 Best Dev Accuracy: 0.6500
+Iteration: 1 	 Train Accuracy: 0.6033 	 Dev Accuracy: 0.6000 	 Best Dev Accuracy: 0.6500
+Iteration: 2 	 Train Accuracy: 0.6200 	 Dev Accuracy: 0.6200 	 Best Dev Accuracy: 0.6500
+Iteration: 3 	 Train Accuracy: 0.7883 	 Dev Accuracy: 0.7400 	 Best Dev Accuracy: 0.7400
+Iteration: 4 	 Train Accuracy: 0.5217 	 Dev Accuracy: 0.5050 	 Best Dev Accuracy: 0.7400
+Iteration: 5 	 Train Accuracy: 0.8233 	 Dev Accuracy: 0.7600 	 Best Dev Accuracy: 0.7600
+Iteration: 6 	 Train Accuracy: 0.8575 	 Dev Accuracy: 0.8025 	 Best Dev Accuracy: 0.8025
+Iteration: 7 	 Train Accuracy: 0.7175 	 Dev Accuracy: 0.6950 	 Best Dev Accuracy: 0.8025
+Iteration: 8 	 Train Accuracy: 0.8542 	 Dev Accuracy: 0.8000 	 Best Dev Accuracy: 0.8025
+Iteration: 9 	 Train Accuracy: 0.8083 	 Dev Accuracy: 0.7625 	 Best Dev Accuracy: 0.8025
+Training with 10000 features...
+Iteration: 0 	 Train Accuracy: 0.5733 	 Dev Accuracy: 0.5775 	 Best Dev Accuracy: 0.5775
+Iteration: 1 	 Train Accuracy: 0.6175 	 Dev Accuracy: 0.5950 	 Best Dev Accuracy: 0.5950
+Iteration: 2 	 Train Accuracy: 0.8733 	 Dev Accuracy: 0.8050 	 Best Dev Accuracy: 0.8050
+Iteration: 3 	 Train Accuracy: 0.8425 	 Dev Accuracy: 0.7625 	 Best Dev Accuracy: 0.8050
+Iteration: 4 	 Train Accuracy: 0.8983 	 Dev Accuracy: 0.8000 	 Best Dev Accuracy: 0.8050
+Iteration: 5 	 Train Accuracy: 0.8350 	 Dev Accuracy: 0.7550 	 Best Dev Accuracy: 0.8050
+Iteration: 6 	 Train Accuracy: 0.8175 	 Dev Accuracy: 0.7475 	 Best Dev Accuracy: 0.8050
+Iteration: 7 	 Train Accuracy: 0.9058 	 Dev Accuracy: 0.7650 	 Best Dev Accuracy: 0.8050
+Iteration: 8 	 Train Accuracy: 0.5592 	 Dev Accuracy: 0.5350 	 Best Dev Accuracy: 0.8050
+Iteration: 9 	 Train Accuracy: 0.7567 	 Dev Accuracy: 0.6975 	 Best Dev Accuracy: 0.8050
+Best classifier with 10000 features: 	 Train Accuracy: 0.8733 	 Dev Accuracy: 0.8050
+Best number of features: 10000 
+Top features for positive class:
+[('life', 194), ('you', 180), ('see', 172), ('world', 153), ('most', 152), ('also', 149), ('will', 138), ('quite', 136), ('seen', 127), ('very', 125)]
+Top features for negative class:
+[('bad', -298), ('no', -228), ('have', -209), ('only', -183), ('action', -181), ('here', -163), ('any', -157), ('about', -150), ('been', -144), ('script', -134)]
+Test score for best setting: 0.7725
