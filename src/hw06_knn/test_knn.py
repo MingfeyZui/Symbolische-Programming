@@ -2,8 +2,8 @@ from unittest import TestCase
 
 from hw06_knn.classification import DocumentCollection, KNNClassifier, TextDocument
 
-dir_train= "data/20news-bydate/20news-bydate-train/"
-dir_test = "data/20news-bydate/20news-bydate-test/"
+dir_train= "../data/20news-bydate/20news-bydate-train/"
+dir_test = "../data/20news-bydate/20news-bydate-test/"
 
 
 doc_collection_train = DocumentCollection.from_dir(dir_train)

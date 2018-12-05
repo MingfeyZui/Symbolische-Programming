@@ -439,4 +439,4 @@ $RECYCLE.BIN/
 *.aux
 _minted*/
 
-/src/data/20news-bydate
+/data/20news-bydate
