@@ -77,26 +77,38 @@ class KNNClassifier:
 
     def calculate_similarities(self,vecTestDoc,vectorsOfTrainDocs):
         #TODO calculate similarities between test and train documents and label them [(similarity, label),...]
-        pass
+        return [(self.doc_collection.cosine_similarity(vecTestDoc, vecTrainDoc[1]), self.doc_collection.doc_to_category[vecTrainDoc[0]]) for vecTrainDoc in vectorsOfTrainDocs]
 
     def order_nearest_to_farthest(self,distances):
         #TODO order the labeled points from nearest to farthest
-        pass
+        return sorted(distances, key=lambda x: x[0], reverse=True)
 
     def labels_k_closest(self,sorted_distances):
         #TODO find the labels for the k closest
-        pass
+        return [tup[1] for tup in sorted_distances[:self.n_neighbors]]
 
     def choose_one(self,labels) :
         #TODO reduce k until you find a unique winner
-        pass
+        freq_label = Counter(labels)
+        most_common = []
+        for k,v in freq_label.items():
+            if v == freq_label.most_common(1)[0][1]:
+                most_common.append(k)
+        if len(most_common) == 1:
+            return most_common[0]
+        else:
+            return choose_one(self, labels[:-1])
 
 
     def classify(self, test_file):
         #TODO classify test document
         test_doc = TextDocument.from_file(test_file,'unknowcat')
-        pass
+        dist = self.calculate_similarities(self.doc_collection.tfidf(test_doc.token_counts), self.vectorsOfDoc_collection)
+        ordered = self.order_nearest_to_farthest(dist)
+        k_nearest_labels = self.labels_k_closest(ordered)
+        test_doc.category = self.choose_one(k_nearest_labels)
+        return test_doc.category
 
     def get_accuracy(self, gold, predicted):
         #TODO calculate accuracy
-        pass
+        return len([tup for tup in zip(predicted,gold) if tup[0]==tup[1]])/len(gold) * 100

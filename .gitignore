@@ -55,10 +55,10 @@ local.properties
 .worksheet
 
 ### Eclipse Patch ###
-# Eclipse Core		
-.project		
+# Eclipse Core
+.project
 
-# JDT-specific (Eclipse Java Development Tools)		
+# JDT-specific (Eclipse Java Development Tools)
 .classpath
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -438,3 +438,5 @@ $RECYCLE.BIN/
 *.vrb
 *.aux
 _minted*/
+
+/src/data/20news-bydate
