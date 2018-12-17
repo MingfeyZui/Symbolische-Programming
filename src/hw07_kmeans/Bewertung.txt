@@ -1,0 +1,9 @@
+hw07_kmeans.test_kmeans.ClusteringTest.test_01_courses                OK        1/1 points
+hw07_kmeans.test_kmeans.ClusteringTest.test_02_normalize              OK        1/1 points
+hw07_kmeans.test_kmeans.ClusteringTest.test_03_vocabulary             OK        1/1 points
+hw07_kmeans.test_kmeans.ClusteringTest.test_04_vectorspaced           OK        1/1 points
+hw07_kmeans.test_kmeans.ClusteringTest.test_05_distance               OK        1/1 points
+hw07_kmeans.test_kmeans.ClusteringTest.test_06_vector_mean            OK        1/1 points
+hw07_kmeans.test_kmeans.ClusteringTest.test_07_classify               OK        1/1 points
+####################################
+TOTAL: 7/7 points
