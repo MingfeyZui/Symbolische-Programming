@@ -1,3 +1,4 @@
+hw08_nltk.test_analyzer.AnalyzerTest.test_00_constructor              OK        1/1 points
 hw08_nltk.test_analyzer.AnalyzerTest.test_01_numberOfTokens           OK        1/1 points
 hw08_nltk.test_analyzer.AnalyzerTest.test_02_size                     OK        1/1 points
 hw08_nltk.test_analyzer.AnalyzerTest.test_03_diversity                OK        1/1 points
@@ -10,4 +11,4 @@ hw08_nltk.test_analyzer.AnalyzerTest.test_09_tokensTypical            OK        
 hw08_nltk.test_lang_guesser.LangGuesserTest.test_01_unigram_word_models OK        2/2 points
 hw08_nltk.test_lang_guesser.LangGuesserTest.test_02_guess             OK        2/2 points
 ####################################
-TOTAL: 13/13 points
+TOTAL: 14/14 points

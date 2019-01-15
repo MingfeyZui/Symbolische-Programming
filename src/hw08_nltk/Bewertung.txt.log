@@ -2,6 +2,41 @@
   self.text = word_tokenize(open(path).read())
 .
 ----------------------------------------------------------------------
+Ran 1 test in 0.033s
+
+OK
+/home/g/guimeracuevas/Desktop/sp1819/scripts/tmp_repositories/abgabe/hw08_nltk/Stirnlappenbasilisk/src/hw08_nltk/analyze.py:8: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/g/guimeracuevas/Desktop/sp1819/data/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  self.text = word_tokenize(open(path).read())
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.032s
+
+OK
+/home/g/guimeracuevas/Desktop/sp1819/scripts/tmp_repositories/abgabe/hw08_nltk/Stirnlappenbasilisk/src/hw08_nltk/analyze.py:8: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/g/guimeracuevas/Desktop/sp1819/data/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  self.text = word_tokenize(open(path).read())
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.033s
+
+OK
+/home/g/guimeracuevas/Desktop/sp1819/scripts/tmp_repositories/abgabe/hw08_nltk/Stirnlappenbasilisk/src/hw08_nltk/analyze.py:8: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/g/guimeracuevas/Desktop/sp1819/data/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  self.text = word_tokenize(open(path).read())
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.032s
+
+OK
+/home/g/guimeracuevas/Desktop/sp1819/scripts/tmp_repositories/abgabe/hw08_nltk/Stirnlappenbasilisk/src/hw08_nltk/analyze.py:8: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/g/guimeracuevas/Desktop/sp1819/data/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  self.text = word_tokenize(open(path).read())
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.032s
+
+OK
+/home/g/guimeracuevas/Desktop/sp1819/scripts/tmp_repositories/abgabe/hw08_nltk/Stirnlappenbasilisk/src/hw08_nltk/analyze.py:8: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/g/guimeracuevas/Desktop/sp1819/data/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  self.text = word_tokenize(open(path).read())
+.
+----------------------------------------------------------------------
 Ran 1 test in 0.032s
 
 OK
@@ -30,35 +65,7 @@ OK
   self.text = word_tokenize(open(path).read())
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.032s
-
-OK
-/home/g/guimeracuevas/Desktop/sp1819/scripts/tmp_repositories/abgabe/hw08_nltk/Stirnlappenbasilisk/src/hw08_nltk/analyze.py:8: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/g/guimeracuevas/Desktop/sp1819/data/ada_lovelace.txt' mode='r' encoding='UTF-8'>
-  self.text = word_tokenize(open(path).read())
-.
-----------------------------------------------------------------------
-Ran 1 test in 0.032s
-
-OK
-/home/g/guimeracuevas/Desktop/sp1819/scripts/tmp_repositories/abgabe/hw08_nltk/Stirnlappenbasilisk/src/hw08_nltk/analyze.py:8: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/g/guimeracuevas/Desktop/sp1819/data/ada_lovelace.txt' mode='r' encoding='UTF-8'>
-  self.text = word_tokenize(open(path).read())
-.
-----------------------------------------------------------------------
-Ran 1 test in 0.033s
-
-OK
-/home/g/guimeracuevas/Desktop/sp1819/scripts/tmp_repositories/abgabe/hw08_nltk/Stirnlappenbasilisk/src/hw08_nltk/analyze.py:8: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/g/guimeracuevas/Desktop/sp1819/data/ada_lovelace.txt' mode='r' encoding='UTF-8'>
-  self.text = word_tokenize(open(path).read())
-.
-----------------------------------------------------------------------
-Ran 1 test in 0.033s
-
-OK
-/home/g/guimeracuevas/Desktop/sp1819/scripts/tmp_repositories/abgabe/hw08_nltk/Stirnlappenbasilisk/src/hw08_nltk/analyze.py:8: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/g/guimeracuevas/Desktop/sp1819/data/ada_lovelace.txt' mode='r' encoding='UTF-8'>
-  self.text = word_tokenize(open(path).read())
-.
-----------------------------------------------------------------------
-Ran 1 test in 1.256s
+Ran 1 test in 1.267s
 
 OK
 .
