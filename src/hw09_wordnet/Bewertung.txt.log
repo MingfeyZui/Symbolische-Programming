@@ -1,0 +1,35 @@
+/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tmp_repositories/abgabe/hw09_wordnet/Stirnlappenbasilisk/src/hw09_wordnet/find_hyponyms.py:11: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tests/hw09_wordnet/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  text = open(text_path).read()
+.
+----------------------------------------------------------------------
+Ran 1 test in 2.893s
+
+OK
+/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tmp_repositories/abgabe/hw09_wordnet/Stirnlappenbasilisk/src/hw09_wordnet/find_hyponyms.py:11: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tests/hw09_wordnet/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  text = open(text_path).read()
+.
+----------------------------------------------------------------------
+Ran 1 test in 2.952s
+
+OK
+/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tmp_repositories/abgabe/hw09_wordnet/Stirnlappenbasilisk/src/hw09_wordnet/find_hyponyms.py:11: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tests/hw09_wordnet/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  text = open(text_path).read()
+.
+----------------------------------------------------------------------
+Ran 1 test in 2.805s
+
+OK
+/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tmp_repositories/abgabe/hw09_wordnet/Stirnlappenbasilisk/src/hw09_wordnet/find_hyponyms.py:11: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tests/hw09_wordnet/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  text = open(text_path).read()
+.
+----------------------------------------------------------------------
+Ran 1 test in 2.841s
+
+OK
+/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tmp_repositories/abgabe/hw09_wordnet/Stirnlappenbasilisk/src/hw09_wordnet/find_hyponyms.py:11: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/e/elsayes/Desktop/letzte_tutor/sp1819/scripts/tests/hw09_wordnet/ada_lovelace.txt' mode='r' encoding='UTF-8'>
+  text = open(text_path).read()
+.
+----------------------------------------------------------------------
+Ran 1 test in 3.843s
+
+OK

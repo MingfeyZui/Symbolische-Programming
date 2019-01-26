@@ -1,0 +1,7 @@
+hw09_wordnet.test_wordnet.WordnetTest.test_01_noun_similarity         OK        4/4 points
+hw09_wordnet.test_wordnet.WordnetTest.test_2_odd_man                  OK        4/4 points
+hw09_wordnet.test_wordnet.WordnetTest.test_3_lemma_names              OK        6/6 points
+hw09_wordnet.test_wordnet.WordnetTest.test_4_hypernymOF               OK        1/1 points
+hw09_wordnet.test_wordnet.WordnetTest.test_05_hyponyms                OK        3/3 points
+####################################
+TOTAL: 18/18 points
