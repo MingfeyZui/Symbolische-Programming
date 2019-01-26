@@ -1,0 +1,56 @@
+.
+----------------------------------------------------------------------
+Ran 1 test in 1.441s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 1.098s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 1.105s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 1.099s
+
+OK
+defaultdict(<class 'set'>, {'supported': {'VBN'}, 'behind': {'IN'}, 'wheel': {'NN'}, '|': {'NNS'}, 'volkswagen': {'NN'}, 'jetta': {'NN', 'JJ'}, 'hybrid': {'NN', 'JJ'}, 'bradley': {'NN'}, 'berman': {'NN'}, 'berkeley': {'NN'}, ',': {','}, 'calif.': {'NN'}, '—': {'NNP', 'NN', 'CC'}, 'every': {'DT'}, 'major': {'JJ'}, 'car': {'NN'}, 'company': {'NN'}, 'dna': {'NN'}, 'set': {'VBN'}, 'qualities': {'NNS'}, 'make': {'VBP', 'JJ'}, 'clear': {'JJ'}, 'drivers': {'NNS'}, 'chevy': {'NNS'}, 'toyota': {'NN', 'VBZ', 'JJ'}, 'bmw': {'NN'}, '.': {'.'}, 'like': {'IN'}, 'healthy': {'JJ'}, 'human': {'JJ'}, '’': {'NNP', 'VBP', 'NN', 'JJ'}, 'genetic': {'JJ'}, 'code': {'NN'}, 'automotive': {'JJ'}, 'immutable': {'JJ'}, 'thing': {'NN'}, 'regardless': {'RB'}, 'technology': {'NN'}, 'powering': {'VBG'}, 'wheels': {'NNS'}, 'posed': {'JJ'}, 'challenge': {'NN'}, 'belatedly': {'RB'}, 'developed': {'VBD'}, 'first': {'RB', 'JJ'}, 'gas-electric': {'JJ'}, 'passenger': {'NN'}, '2013': {'CD'}, ':': {':'}, 'preserve': {'NN'}, 'vw': {'RB', 'NN', 'JJ', 'FW'}, 'introducing': {'VBG'}, 'shuts': {'NNS'}, 'least': {'JJS'}, 'occasionally': {'RB'}, 'prized': {'VBD'}, 'internal': {'JJ'}, 'combustion': {'NN'}, 'engines': {'NNS'}, 'true': {'JJ'}, 'new': {'JJ'}, 'vehicle': {'NN'}, ';': {':'}, 'touareg': {'CC'}, 'sale': {'NN'}, 'since': {'IN'}, '2010.': {'CD'}, 'given': {'VBN'}, 'minuscule': {'NN'}, 'production': {'NN'}, 's.u.v': {'NN'}, 'form': {'NN'}, 'pilot': {'NN'}, 'project': {'NN'}, 'mainstream': {'JJ'}, 'product': {'NN'}, 'hand': {'NN'}, 'real': {'JJ'}, 'deal': {'NN'}, 'affordable': {'JJ'}, 'fuel-efficient': {'JJ'}, 'aimed': {'VBN'}, 'large': {'JJ'}, 'market': {'NN'}, 'family-car': {'NN'}, 'buyers': {'NNS'}, 'best': {'JJS'}, 'allows': {'VBZ'}, 'gas': {'NN'}, 'engine': {'NN'}, 'taken': {'VBN'}, 'silent': {'JJ'}, 'electric': {'JJ'}, 'motor': {'NN'}, 'yet': {'RB', 'CC'}, 'one': {'CD'}, 'could': {'MD'}, 'argue': {'VB'}, 'identity': {'NN'}, 'fundamentally': {'RB'}, 'characterized': {'VBN'}, 'rumble': {'JJ'}, 'efficient': {'JJ'}, 'internal-combustion': {'NN'}, 'often': {'RB'}, 'diesel': {'NN', 'JJ'}, 'variety': {'NN'}, 'springing': {'VBG'}, 'life': {'NN'}, 'accelerator': {'NN'}, 'pressed': {'VBN'}, 'flipping': {'VBG'}, 'cause': {'VB'}, 'angst': {'JJ'}, 'accustomed': {'VBD'}, 'ways': {'NNS'}, 'engineers': {'NNS'}, 'clever': {'VBP'}, 'based': {'VBN'}, 'week': {'NN'}, 'seems': {'VBZ'}, 'managed': {'VBN', 'VBD'}, 'turn': {'NN'}, 'tables': {'NNS'}, 'redefining': {'VBG'}, 'hybrid-ness': {'JJ'}, 'context': {'NN'}, 'represents': {'VBZ'}, 'mix': {'JJ'}, 'efficiency': {'NN'}, 'precise': {'JJ'}, 'handling': {'VBG'}, 'high-speed': {'JJ'}, 'confidence': {'NN'}, 'previously': {'RB'}, 'offered': {'VBN'}, 'made': {'VBD'}, 'feel': {'NN', 'VB'}, 'gears': {'NNS'}, 'shift': {'NN'}, 'avoids': {'NNS'}, 'continuously': {'RB'}, 'variable': {'JJ'}, 'transmissions': {'NNS'}, 'found': {'VBD'}, 'hybrids': {'NNS'}, 'ford': {'NN'}, 'honda': {'NN'}, 'usually': {'RB'}, 'operate': {'VBP'}, 'optimal': {'JJ'}, 'gear': {'NN'}, 'ratios': {'NNS'}, 'allow': {'VB'}, 'switching': {'VBG'}, 'power': {'NN'}, 'sources': {'NNS'}, 'delayed': {'VBN'}, 'response': {'NN'}, 'c.v.t.': {'VBP'}, 'provide': {'RB'}, 'much': {'JJ'}, 'excitement': {'NN'}, 'watching': {'VBG'}, 'entire': {'JJ'}, 'golf': {'NN'}, 'tournament': {'NN'}, 'television': {'NN'}, 'instead': {'RB'}, 'employs': {'VBZ'}, 'automated': {'JJ'}, '7-speed': {'JJ'}, 'direct-shift': {'NN'}, 'gearbox': {'NN'}, 'lock': {'RB'}, 'unlock': {'NN'}, 'pause': {'IN'}, 're-engage': {'JJ'}, 'tighter': {'NN'}, 'speed': {'NN'}, 'increases': {'NNS'}, 'manual': {'JJ'}, 'paddle': {'NN', 'JJ'}, 'shifters': {'NNS'}, 'steering': {'VBG'}, 'give': {'JJ'}, 'option': {'NN'}, 'controlling': {'VBG'}, 'think': {'VB'}, 'vroom': {'NN'}, 'sound': {'NN'}, 'children': {'NNS'}, 'play': {'NN'}, 'toy': {'NN'}, 'cars': {'NNS'}, 'apparently': {'RB'}, 'seeking': {'VBG'}, 'present': {'JJ'}, 'though': {'IN'}, 'missing': {'VBG'}, 'many': {'JJ'}, '(': {'('}, 'notably': {'RB'}, 'prius': {'NN', 'JJ'}, 'eerie': {'NNS'}, 'quiet': {'JJ'}, 'low': {'JJ'}, 'speeds': {'NNS'}, 'strained': {'VBD'}, 'high-pitched': {'JJ'}, 'whine': {'NN'}, 'rapid': {'JJ'}, 'acceleration': {'NN'}, ')': {')'}, 'strategy': {'NN'}, 'nullify': {'IN'}, 'electricity': {'NN'}, 'defy': {'NN'}, 'existence': {'NN'}, 'almost': {'RB'}, 'embarrassment': {'JJ'}, 'fouling': {'VBG'}, 'air': {'NN'}, 'opposite': {'JJ'}, 'embraces': {'VBZ'}, 'longtime': {'JJ'}, 'driver': {'NN'}, 'adjust': {'VBP'}, 'idiosyncrasies': {'NNS'}, 'days': {'NNS'}, 'tried': {'VBD'}, 'drive': {'VBP', 'NN'}, 'light': {'NN', 'JJ'}, 'touch': {'NN'}, 'keep': {'NN'}, 'mode': {'NN'}, 'preventing': {'VBG'}, 'waking': {'NN'}, 'balked': {'VBD'}, 'gentle': {'JJ'}, 'treatment': {'NN'}, 'start-up': {'NN'}, 'came': {'VBD'}, 'stayed': {'VBN'}, 'asking': {'VBG'}, 'used': {'VBN'}, 'lifting': {'VBG'}, 'foot': {'NN'}, 'brakes': {'NNS'}, 'stoplight': {'RB'}, 'surged': {'VBD'}, 'forward': {'RB'}, 'disconcertingly': {'RB'}, 'confidently': {'RB'}, 'stepped': {'VBD'}, 'switchbacks': {'NNS'}, 'dexterity': {'NN'}, 'passing': {'VBG'}, 'highway': {'RB', 'NN'}, '10': {'CD'}, 'photos': {'JJ'}, 'view': {'NN'}, 'slide': {'NN'}, 'show': {'NN'}, '›': {'NNP'}, 'unfortunately': {'RB'}, 'driven': {'RB', 'NN'}, 'wants': {'VBZ'}, 'mileage': {'NN'}, 'suffered': {'VBD'}, '122': {'CD'}, 'miles': {'NNS'}, 'mixed': {'JJ'}, 'city-highway': {'JJ'}, 'driving': {'NN', 'VBG'}, 'averaged': {'VBD'}, 'fuel': {'NN'}, 'economy': {'NN'}, '35': {'CD'}, 'm.p.g.': {'NN'}, 'well': {'RB'}, 'environmental': {'JJ'}, 'protection': {'NN'}, 'agency': {'NN'}, 'combined': {'VBD'}, 'estimate': {'NN'}, '45': {'CD'}, 'm.p.g': {'NN'}, 'city': {'NN'}, 'rating': {'NN'}, '42': {'CD'}, '48': {'CD'}, 'easily': {'RB'}, '44': {'CD'}, 'respectively': {'RB'}, 'two': {'CD'}, '60-mile': {'JJ'}, 'jaunts': {'NNS'}, 'thrift': {'NN'}, 'required': {'VBN'}, 'restraint': {'NN'}, 'certainly': {'RB'}, 'autobahn': {'JJ'}, 'style': {'NN'}, 'says': {'VBZ'}, 'm.p.h': {'NN'}, 'pure': {'NN', 'JJ'}, 'achieved': {'VBN'}, 'styling': {'VBG'}, 'inside': {'RB'}, 'clean': {'JJ'}, 'solid': {'JJ'}, 'functional': {'NN'}, 'even': {'RB'}, 'flourishes': {'NNS'}, 'points': {'NNS'}, 'front': {'JJ'}, 'fascia': {'NN'}, 'seem': {'VBP'}, 'unresolved': {'JJ'}, 'seating': {'VBG'}, 'generous': {'JJ'}, 'comfortable': {'JJ'}, 'dazzle': {'VBD'}, 'dashboard': {'RB'}, 'energy-flow': {'JJ'}, 'diagrams': {'NNS'}, 'eco-motifs': {'VBP'}, 'leaves': {'NNS'}, 'butterflies': {'NNS'}, 'designers': {'NNS'}, 'remained': {'VBD'}, 'content': {'JJ'}, 'simply': {'RB'}, 'let': {'JJ'}, 'signs': {'NNS'}, 'rookie': {'NN'}, 'effort': {'NN'}, 'regenerative': {'JJ', 'VB'}, 'braking': {'VBG', 'NN'}, 'system': {'NN'}, 'feels': {'NNS'}, 'bit': {'RB'}, 'jerky': {'JJ'}, 'transitions': {'NNS'}, 'seamless': {'NN'}, 'awkward': {'NN'}, 'packaging': {'VBG'}, 'batteries': {'NNS'}, 'hatch': {'VBP'}, 'reduces': {'NNS'}, 'cargo': {'VBP'}, 'space': {'NN'}, '11.3': {'CD'}, 'cubic': {'JJ'}, 'feet': {'NNS'}, '15.5.': {'CD'}, 'loss': {'NN'}, 'may': {'MD'}, 'enough': {'VB'}, 'sway': {'RB'}, 'pragmatic': {'JJ'}, 'away': {'RB'}, '170-horsepower': {'CD'}, '1.4-liter': {'JJ'}, 'base': {'NN'}, 'price': {'NN'}, '$': {'$'}, '24,995': {'CD'}, 'tdi': {'JJ'}, 'starts': {'VBZ'}, '23,055': {'CD'}, '140-horsepower': {'JJ'}, '2-liter': {'JJ'}, '41': {'CD'}, 'issues': {'NNS'}, 'get': {'VBP'}, 'challenging': {'VBG'}, 'adds': {'VBZ'}, 'plug-in': {'JJ'}, 'vehicles': {'NNS'}, 'portfolio': {'NN'}, 'january': {'NN'}, 'rudolf': {'NN'}, 'krebs': {'NNS'}, 'group': {'NN'}, 'chief': {'JJ'}, 'officer': {'NN'}, 'traction': {'NN'}, 'told': {'VBD'}, '“': {'NNP', 'JJ'}, 'want': {'VBP'}, 'become': {'JJ'}, 'leader': {'NN'}, 'electrification.': {'JJ'}, '”': {'NNP'}, 'steppingstone': {'VBP'}, 'global': {'JJ'}, 'electrification': {'NN'}, 'plan': {'NN'}, 'includes': {'VBZ'}, 'seven': {'CD'}, 'battery-electric': {'JJ'}, 'end': {'VBP'}, 'next': {'JJ'}, 'year': {'NN'}, 'conventional': {'JJ'}, 'no-plug': {'JJ'}, 'announced': {'VBD'}, 'headed': {'VBN'}, 'united': {'JJ'}, 'states': {'NNS'}, 'e-golf': {'NN', 'JJ'}, 'goes': {'VBZ'}, 'early': {'RB'}, '2014.': {'CD'}, 'spent': {'JJ'}, 'afternoon': {'NN'}, 'prototype': {'JJ'}, 'version': {'NN'}, 'loop': {'NN'}, 'around': {'IN'}, 'san': {'JJ'}, 'francisco': {'JJ'}, 'bay': {'NN'}, 'powered': {'VBD'}, 'purely': {'RB'}, 'guided': {'VBD'}, 'single-speed': {'JJ'}, 'transmission': {'NN'}, 'governed': {'VBD'}, 'sober': {'NNP'}, 'top': {'JJ'}, '80': {'CD'}, 'creative': {'VBP'}, 'matter': {'NN'}, 'adhering': {'VBG'}, 'brand': {'NN'}, 'guidelines': {'NNS'}, 'obviously': {'RB'}, 'gas-powered': {'JJ'}, 'said': {'VBD'}, 'darryll': {'JJ'}, 'harrison': {'NN'}, 'spokesman': {'NN'}, 'accompanied': {'VBD'}, 'goal.': {'NN'}, 'example': {'NN'}, 'convey': {'JJ'}, 'gasoline-powered': {'JJ'}, 'use': {'NN'}, 'control': {'VBP'}, 'rather': {'RB'}, 'tugging': {'VBG'}, 'paddles': {'NNS'}, 'makes': {'VBZ'}, 'stop': {'JJ'}, 'faster': {'NN'}, 'feeding': {'VBG'}, 'energy': {'NN'}, 'battery': {'NN'}, 'pack': {'NN'}, 'flick': {'JJ'}, 'side': {'NN'}, 'coast': {'NN'}, 'longer': {'RB'}, 'great': {'JJ'}, 'feature': {'NN'}, 'appreciated': {'VBD'}, 'ardent': {'JJ'}, 'e.v': {'NN'}, 'fans': {'NNS'}, 'went': {'VBD'}, 'step': {'NN'}, 'far': {'RB'}, 'allowing': {'VBG'}, 'inherently': {'RB'}, 'cabin': {'NN'}, 'desirable': {'JJ'}, 'evolution': {'NN'}, 'character': {'NN'}, 'era': {'NN'}, 'embedded': {'VBD'}, 'speaker': {'NN'}, 'dash': {'NN'}, 'emits': {'NNS'}, 'artificial': {'JJ'}, 'gets': {'VBZ'}, 'louder': {'JJR'}, 'accelerates': {'NNS'}, '20': {'CD'}, 'm.p.h.': {'NN'}, 'silenced': {'VBD'}, 'actual': {'JJ'}, 'road': {'NN'}, 'takes': {'VBZ'}, 'auditory': {'JJ'}, 'contrivance': {'NN'}, 'reveals': {'NNS'}, 'steps': {'NNS'}, 'willing': {'JJ'}, 'take': {'VB'}, 'sure': {'JJ'}, 'electric-drive': {'JJ'}, 'starting': {'VBG'}, 'remain': {'VBP'}, 'steeped': {'JJ'}, 'aesthetics': {'NNS'}, 'propels': {'NNS'}, 'shifts': {'VBP'}, 'dirty': {'JJ'}, 'hydrocarbons': {'NNS'}, 'electrons': {'NNS'}, 'advertisement': {'NN'}})
+.
+----------------------------------------------------------------------
+Ran 1 test in 1.127s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 1.188s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.030s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.031s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.035s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.031s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.317s
+
+OK

@@ -1,0 +1,13 @@
+hw10_crawling.test_analysis.AnalysisTest.test_01_get_text             OK        1/1 points
+hw10_crawling.test_analysis.AnalysisTest.test_02_get_headline         OK        1/1 points
+hw10_crawling.test_analysis.AnalysisTest.test_03_get_normalized_tokens OK        1/1 points
+hw10_crawling.test_analysis.AnalysisTest.test_04_pos_dict             OK        1/1 points
+hw10_crawling.test_analysis.AnalysisTest.test_05_filter_dict_homographs OK        1/1 points
+hw10_crawling.test_analysis.AnalysisTest.test_06_homographs           OK        1/1 points
+hw10_crawling.test_spaCy.ExtractorTest.test_read_text                 OK        1/1 points
+hw10_crawling.test_spaCy.ExtractorTest.test_entities_and_nounChunks   OK        1/1 points
+hw10_crawling.test_spaCy.ExtractorTest.test_update_tokenizer          OK        1/1 points
+hw10_crawling.test_spaCy.ExtractorTest.test_extract_money_relations   OK        4/4 points
+hw10_crawling.test_spaCy.ExtractorTest.test_relations_in_text         OK        4/4 points
+####################################
+TOTAL: 17/17 points
